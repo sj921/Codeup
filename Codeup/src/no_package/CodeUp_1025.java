@@ -12,16 +12,14 @@ public class CodeUp_1025 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String data = br.readLine();
 		String arr[] = data.split("");
-		int a = Integer.parseInt(arr[0]) * 10000;
-		int b = Integer.parseInt(arr[1]) * 1000;
-		int c = Integer.parseInt(arr[2]) * 100;
-		int d = Integer.parseInt(arr[3]) * 10;
-		int e = Integer.parseInt(arr[4]);
-		
-		System.out.printf("[%d]\n[%d]\n[%d]\n[%d]\n[%d]", a,b,c,d,e);
-		
-		
-		
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print("[" + arr[i]);
+			for (int j = arr.length - 1; j > i; j--) {
+				System.out.printf("%d", 0);
+			}
+			System.out.println("]");
+		}
+
 	}
 }
 
