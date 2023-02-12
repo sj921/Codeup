@@ -9,5 +9,6 @@ public class CodeUp_1041 {
 		Scanner sc = new Scanner(System.in);		
 		char c = sc.next().charAt(0);
 		System.out.printf("%c", c+1);		
+		
 	}
 }
