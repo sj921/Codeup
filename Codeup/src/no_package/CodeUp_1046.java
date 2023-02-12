@@ -13,5 +13,6 @@ public class CodeUp_1046 {
 		int sum = a + b + c;
 		double avg = sum / 3.0;
 		System.out.printf("%d\n%.1f", sum, avg);
+		
 	}
 }

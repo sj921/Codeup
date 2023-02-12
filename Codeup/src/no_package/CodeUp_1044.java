@@ -8,7 +8,6 @@ public class CodeUp_1044 {
 		System.out.print(">> ");
 		Scanner sc = new Scanner(System.in);
 		long a = sc.nextInt();
-		System.out.printf("%d", ++a);
-		
+		System.out.printf("%d", ++a);		
 	}
 }

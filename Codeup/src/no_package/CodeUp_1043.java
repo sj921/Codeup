@@ -9,6 +9,8 @@ public class CodeUp_1043 {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
-		System.out.printf("%d", a % b);
+		int answer = a % b;
+		System.out.printf("%d", answer);
+		
 	}
 }
